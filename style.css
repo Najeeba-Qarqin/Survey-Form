@@ -36,3 +36,16 @@ form {
     display: inline-block;
     width: auto;
 }
+
+button {
+    background-color: hsl(215, 52%, 80%);
+    color: black;
+    border: 1px solid #333;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 50px 100px 20px 100px;
+}
