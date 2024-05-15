@@ -31,3 +31,8 @@ form {
     display: block;
     width: 95%;
 }
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
