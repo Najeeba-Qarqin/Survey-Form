@@ -1,51 +1,53 @@
 body {
-    background-color: rgb(151, 181, 222);
-    font-family: Verdana;
-    text-align: center;
+  background-color: rgb(151, 181, 222);
+  text-align: center;
 }
+
 form {
-    background-color: rgb(242, 242, 242);
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 30px 20px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
+  background-color: rgb(242, 242, 242);
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
 }
+
 .form {
-    text-align: left;
-    margin-bottom: 25px;
+  text-align: left;
+  margin-bottom: 25px;
 }
 
 .form label {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .form input,
 .form select,
 .form textarea {
-    border: 1px solid #777;
-    border-radius: 2px;
-    font-family: inherit;
-    padding: 10px;
-    display: block;
-    width: 95%;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
 }
+
 .form input[type="radio"],
 .form input[type="checkbox"] {
-    display: inline-block;
-    width: auto;
+  display: inline-block;
+  width: auto;
 }
 
 button {
-    background-color: hsl(215, 52%, 80%);
-    color: black;
-    border: 1px solid #333;
-    border-radius: 12px;
-    font-family: inherit;
-    font-size: 21px;
-    display: block;
-    width: 50%;
-    text-align: center;
-    margin: 50px 100px 20px 100px;
+  background-color: hsl(215, 52%, 80%);
+  color: black;
+  border: 1px solid #333;
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 50px 100px 20px 100px;
 }
