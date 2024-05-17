@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Form for collect information from students</p>
+    <form id="survey-form">
+        <fieldset>
+            <legend>Survey form</legend>
+            <div class="form">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required/>
+            </div>
+            <div class="form">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required/>
+            </div>
+            <div class="form">
+                <label for="age" id="number-label">Age:</label>
+                <input type="number" id="number" min="18" max="33" placeholder="Enter your age" required/>
+            </div>
+            <div class="form">
+                <label for="select">Which option describes you?</label>
+                <select name="select" id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form">
+                <label>Gender:</label>
+                <label for="male">
+                    <input type="radio" id="male"name="action" value="male">Male</input>
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="action" value="female">Female</input>
+                </label>
+                <label for="other">
+                    <input type="radio" id="other" name="action" value="other">Other</input>
+                </label>
+            </div>
+            <div class="form">
+                <label>Which computer skills do you have?
+                </label>
+                <label for="inp1">
+                    <input type="checkbox" name="inp" value="fornt">Frontend web development</input>
+                  </label>
+                <label for="inp2">
+                    <input type="checkbox" name="inp" value="back">Backend web development</input>
+                </label>
+                <label for="inp3">
+                    <input type="checkbox" name="inp" value="Office">Office package</input>
+                </label>
+                <label for="inp4">
+                    <input type="checkbox" name="inp" value="other">Other</input>
+                </label>
+            </div>
+            <div class="form">
+                <label for="comment">Any comments or suggestions</label>
+                <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+            </div>
+            <button type="submit" value="submit" id="submit">
+                Submit
+            </button>
+        </fieldset>
+    </form>
+</body>
+</html>
